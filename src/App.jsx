@@ -1,13 +1,9 @@
 import React from 'react'
-import User from './Components/User'
-import Card from './Components/Card'
 
-
-const App = () => {
+function App() {
   return (
     <div>
-
-      <Card users = {{ price:"197 990", text:"Radio bilan boshqaraladigan mashina."}}/>
+      <h1>App jsx</h1>
     </div>
   )
 }
